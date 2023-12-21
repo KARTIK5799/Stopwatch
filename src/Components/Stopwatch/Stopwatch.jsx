@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import 'tailwindcss/tailwind.css'; // Import Tailwind CSS (you may need to adjust the path)
+
 
 const Stopwatch = () => {
   const [isRunning, setIsRunning] = useState(false);
