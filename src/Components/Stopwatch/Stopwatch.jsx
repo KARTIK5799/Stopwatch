@@ -35,8 +35,8 @@ const Stopwatch = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-200">
       <div className="bg-gray-200 p-6  text-center w-full max-w-md">
-        <h1 className="text-3xl font-bold mb-4 text-indigo-700">Stopwatch</h1>
-        <p className="text-4xl mb-6 text-gray-700">{formatTime(elapsedTime)}</p>
+        <h1 className="text-5xl font-bold mb-4 text-indigo-700">Stopwatch</h1>
+        <p className="text-2xl mb-6 text-gray-700"> Time: {formatTime(elapsedTime)}</p>
         <div className="flex justify-center space-x-4">
           <button
             onClick={startStop}
